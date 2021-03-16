@@ -1,4 +1,4 @@
-16:30:37 **** Incremental Build of configuration Release for project GPIO_interruptMode ****
+16:40:15 **** Incremental Build of configuration Release for project GPIO_interruptMode ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "GPIO_interruptMode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\GPIO_interruptMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPIO_interruptMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -8,13 +8,13 @@ arm-none-eabi-objdump -h -S  GPIO_interruptMode.elf  > "GPIO_interruptMode.list"
 arm-none-eabi-objcopy  -O binary  GPIO_interruptMode.elf  "GPIO_interruptMode.bin"
 arm-none-eabi-size   GPIO_interruptMode.elf 
    text	   data	    bss	    dec	    hex	filename
-   4000	     20	   1572	   5592	   15d8	GPIO_interruptMode.elf
+   3964	     20	   1572	   5556	   15b4	GPIO_interruptMode.elf
 Finished building: default.size.stdout
  
+Finished building: GPIO_interruptMode.bin
 Finished building: GPIO_interruptMode.list
  
-Finished building: GPIO_interruptMode.bin
  
 
-16:30:37 Build Finished. 0 errors, 0 warnings. (took 702ms)
+16:40:16 Build Finished. 0 errors, 0 warnings. (took 579ms)
 

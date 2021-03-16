@@ -181,11 +181,9 @@ static void MX_GPIO_Init(void)
 //
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	while(1) {
-				  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-				  for(volatile int i = 0; i < 100000; i++) {
-				  /* Busy wait */
-			  }
+	if (GPIO_Pin==GPIO_PIN_13){
+		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+		HAL_Delay(500);
 	}
 }
 /* USER CODE END 4 */
