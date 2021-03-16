@@ -1,7 +1,17 @@
-14:49:50 **** Incremental Build of configuration Debug for project GPIO_pollingMode ****
+15:38:54 **** Incremental Build of configuration Debug for project GPIO_pollingMode ****
 make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "GPIO_pollingMode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\GPIO_pollingMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPIO_pollingMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GPIO_pollingMode.elf
+ 
 arm-none-eabi-size   GPIO_pollingMode.elf 
+arm-none-eabi-objdump -h -S  GPIO_pollingMode.elf  > "GPIO_pollingMode.list"
+arm-none-eabi-objcopy  -O binary  GPIO_pollingMode.elf  "GPIO_pollingMode.bin"
    text	   data	    bss	    dec	    hex	filename
    5852	     20	   1572	   7444	   1d14	GPIO_pollingMode.elf
 Finished building: default.size.stdout
+ 
+Finished building: GPIO_pollingMode.bin
+ 
+Finished building: GPIO_pollingMode.list
  
