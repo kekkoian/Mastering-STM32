@@ -1,0 +1,10 @@
+14:49:26 **** Build of configuration Debug for project FlashLED ****
+make -j8 all 
+arm-none-eabi-size   FlashLED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6132	     20	   1572	   7724	   1e2c	FlashLED.elf
+Finished building: default.size.stdout
+ 
+
+14:49:26 Build Finished. 0 errors, 0 warnings. (took 305ms)
+
