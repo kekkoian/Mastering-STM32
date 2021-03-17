@@ -34,12 +34,9 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-/*Historically a \n was used to move the carriage down, while the \r was used to move the carriage back to the left side of the page.*/
 #define WELCOME_MSG "Welcome to the Nucleo management console\r\n"
 #define MAIN_MENU   "Select the option you are interested in:\r\n\t1. Toggle LD2 LED\r\n\t2. Read USER BUTTON status\r\n\t3. Clear screen and print this message "
 #define PROMPT "\r\n> "
-
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -243,7 +240,7 @@ uint8_t readUserInput(void) {
 
 	HAL_UART_Transmit(&huart2, (uint8_t*)PROMPT, strlen(PROMPT), HAL_MAX_DELAY);
 	HAL_UART_Receive(&huart2, (uint8_t*)readBuf, 1, HAL_MAX_DELAY);
-	return atoi(readBuf); //A char is just a small integer. The function atoi converts a string of digits into its numeric equivalent
+	return atoi(readBuf);
 }
 
 
@@ -253,7 +250,7 @@ uint8_t processUserInput(uint8_t opt) {
 	if(!opt || opt > 3)
 		return 0;
 
-	sprintf(msg, "%d", opt); //The function sprintf does the same conversions as printf does, but stores the output in a string
+	sprintf(msg, "%d", opt);
 	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
 
 	switch(opt) {
@@ -261,13 +258,6 @@ uint8_t processUserInput(uint8_t opt) {
 		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 		break;
 	case 2:
-		/*if (a > b)
-			z = a;
-		else
-			z = b;
-
-		In the expression expr1 ? expr2 : expr3 the expression expr1 is evaluated first.
-		If it is true, then the expression expr2 is evaluated, otherwise expr3 is evaluated*/
 		sprintf(msg, "\r\nUSER BUTTON status: %s", HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET ? "PRESSED" : "RELEASED");
 		HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
 		break;
