@@ -2384,3 +2384,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-03-19 08:59:18.008
 !MESSAGE Indexed 'UART_DMAinterruptMode_UsingHAL_UART' (21 sources, 81 headers) in 3.03 sec: 4,248 declarations; 17,662 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-03-19 13:34:11.765
+!MESSAGE Indexed 'TIM_interruptMode' (21 sources, 81 headers) in 1.47 sec: 4,248 declarations; 17,662 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)

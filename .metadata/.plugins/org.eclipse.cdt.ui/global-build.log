@@ -1,7 +1,17 @@
-10:09:53 **** Incremental Build of configuration Debug for project UART_DMAinterruptMode_UsingHAL_UART ****
+14:00:02 **** Incremental Build of configuration Debug for project TIM_interruptMode ****
 make -j8 all 
-arm-none-eabi-size   UART_DMAinterruptMode_UsingHAL_UART.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TIM_interruptMode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\TIM_interruptMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TIM_interruptMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TIM_interruptMode.elf
+ 
+arm-none-eabi-objdump -h -S  TIM_interruptMode.elf  > "TIM_interruptMode.list"
+arm-none-eabi-objcopy  -O binary  TIM_interruptMode.elf  "TIM_interruptMode.bin"
+arm-none-eabi-size   TIM_interruptMode.elf 
    text	   data	    bss	    dec	    hex	filename
-  11608	     24	   1736	  13368	   3438	UART_DMAinterruptMode_UsingHAL_UART.elf
+   8208	     20	   1644	   9872	   2690	TIM_interruptMode.elf
 Finished building: default.size.stdout
+ 
+Finished building: TIM_interruptMode.bin
+Finished building: TIM_interruptMode.list
+ 
  
