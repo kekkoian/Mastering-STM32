@@ -1,17 +1,17 @@
-14:00:02 **** Incremental Build of configuration Debug for project TIM_interruptMode ****
+15:11:36 **** Incremental Build of configuration Debug for project TIM_pollingMode ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "TIM_interruptMode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\TIM_interruptMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TIM_interruptMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: TIM_interruptMode.elf
+arm-none-eabi-gcc -o "TIM_pollingMode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\TIM_pollingMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TIM_pollingMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TIM_pollingMode.elf
  
-arm-none-eabi-objdump -h -S  TIM_interruptMode.elf  > "TIM_interruptMode.list"
-arm-none-eabi-objcopy  -O binary  TIM_interruptMode.elf  "TIM_interruptMode.bin"
-arm-none-eabi-size   TIM_interruptMode.elf 
+arm-none-eabi-objdump -h -S  TIM_pollingMode.elf  > "TIM_pollingMode.list"
+arm-none-eabi-objcopy  -O binary  TIM_pollingMode.elf  "TIM_pollingMode.bin"
+arm-none-eabi-size   TIM_pollingMode.elf 
    text	   data	    bss	    dec	    hex	filename
-   8208	     20	   1644	   9872	   2690	TIM_interruptMode.elf
+   7404	     20	   1644	   9068	   236c	TIM_pollingMode.elf
 Finished building: default.size.stdout
  
-Finished building: TIM_interruptMode.bin
-Finished building: TIM_interruptMode.list
+Finished building: TIM_pollingMode.bin
+Finished building: TIM_pollingMode.list
  
  
