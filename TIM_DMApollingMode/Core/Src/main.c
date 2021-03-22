@@ -93,8 +93,8 @@ int main(void)
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start(&htim1);
- HAL_DMA_Start(&hdma_tim1_up, (uint32_t)data, (uint32_t)&GPIOA->ODR, 2);
-   __HAL_TIM_ENABLE_DMA(&htim1, TIM_DMA_UPDATE);
+  HAL_DMA_Start(&hdma_tim1_up, (uint32_t)data, (uint32_t)&GPIOA->ODR, 2);
+       __HAL_TIM_ENABLE_DMA(&htim1, TIM_DMA_UPDATE);
 
   /* USER CODE END 2 */
 
