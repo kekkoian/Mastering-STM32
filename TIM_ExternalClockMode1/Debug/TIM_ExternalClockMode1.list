@@ -456,8 +456,8 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_LSE;
  800054c:	2306      	movs	r3, #6
  800054e:	623b      	str	r3, [r7, #32]
-  RCC_OscInitStruct.LSEState = RCC_LSE_BYPASS;
- 8000550:	2305      	movs	r3, #5
+  RCC_OscInitStruct.LSEState = RCC_LSE_ON;
+ 8000550:	2301      	movs	r3, #1
  8000552:	62bb      	str	r3, [r7, #40]	; 0x28
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
  8000554:	2301      	movs	r3, #1
