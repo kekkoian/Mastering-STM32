@@ -1,3 +1,7 @@
 1615902578854	Delete resource 'FlashLED'
 1615904990076	Delete resource 'GPIO_pollingMode'
 1615904997081	Delete resource 'GPIO_interruptMode'
+1616675612251	Rename resource 'TIM_ExternalClockMode2'
+1616675894881	Rename resource 'TIM_ExternalClockMode2(MasterMode)'
+1616676006427	Rename resource 'TIM_ExternalClockMode2'
+1616676363493	Rename resource 'TIM_ExternalClockMode2(MasterMode)'

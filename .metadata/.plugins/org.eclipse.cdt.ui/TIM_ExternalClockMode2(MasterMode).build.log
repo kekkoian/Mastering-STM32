@@ -1,0 +1,16 @@
+13:45:42 **** Incremental Build of configuration Debug for project TIM_ExternalClockMode2(MasterMode) ****
+make -j8 all 
+arm-none-eabi-size   TIM_ExternalClockMode2(MasterMode).elf 
+arm-none-eabi-objdump -h -S  TIM_ExternalClockMode2(MasterMode).elf  > "TIM_ExternalClockMode2(MasterMode).list"
+arm-none-eabi-objcopy  -O binary  TIM_ExternalClockMode2(MasterMode).elf  "TIM_ExternalClockMode2(MasterMode).bin"
+c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_1.5.0.202011040924/tools/bin/sh: syntax error: unexpected "("
+c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_1.5.0.202011040924/tools/bin/sh: syntax error: unexpected "("
+c:/st/stm32cubeide_1.3.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_1.5.0.202011040924/tools/bin/sh: syntax error: unexpected "("
+make: *** [makefile:75: TIM_ExternalClockMode2(MasterMode).list] Error 2
+make: *** Waiting for unfinished jobs....
+make: *** [makefile:70: default.size.stdout] Error 2
+make: *** [makefile:80: TIM_ExternalClockMode2(MasterMode).bin] Error 2
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+13:45:43 Build Failed. 4 errors, 0 warnings. (took 619ms)
+
