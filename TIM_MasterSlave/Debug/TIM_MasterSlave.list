@@ -618,8 +618,8 @@ static void MX_TIM1_Init(void)
   sSlaveConfig.TriggerPolarity = TIM_TRIGGERPOLARITY_RISING;
  800063c:	2300      	movs	r3, #0
  800063e:	617b      	str	r3, [r7, #20]
-  sSlaveConfig.TriggerFilter = 0;
- 8000640:	2300      	movs	r3, #0
+  sSlaveConfig.TriggerFilter = 15;
+ 8000640:	230f      	movs	r3, #15
  8000642:	61fb      	str	r3, [r7, #28]
   if (HAL_TIM_SlaveConfigSynchro(&htim1, &sSlaveConfig) != HAL_OK)
  8000644:	f107 030c 	add.w	r3, r7, #12
