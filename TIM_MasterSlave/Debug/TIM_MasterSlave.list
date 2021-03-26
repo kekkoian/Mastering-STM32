@@ -813,8 +813,8 @@ static void MX_GPIO_Init(void)
  8000752:	683b      	ldr	r3, [r7, #0]
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
- 8000754:	2200      	movs	r2, #0
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+ 8000754:	2201      	movs	r2, #1
  8000756:	2120      	movs	r1, #32
  8000758:	480a      	ldr	r0, [pc, #40]	; (8000784 <MX_GPIO_Init+0x60>)
  800075a:	f000 fc37 	bl	8000fcc <HAL_GPIO_WritePin>
