@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   000098d3  00000000  00000000  00040912  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0008652b  00000000  00000000  0004a1e5  2**0
+ 18 .debug_str    00086528  00000000  00000000  0004a1e5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000d0710  2**0
+ 19 .comment      00000053  00000000  00000000  000d070d  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000026d4  00000000  00000000  000d0764  2**2
+ 20 .debug_frame  000026d4  00000000  00000000  000d0760  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -976,7 +976,7 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
  800082a:	681b      	ldr	r3, [r3, #0]
  800082c:	4a27      	ldr	r2, [pc, #156]	; (80008cc <HAL_TIM_Base_MspInit+0xbc>)
  800082e:	4293      	cmp	r3, r2
- 8000830:	d135      	bne.n	800089e <HAL_TIM_Base_MspInit+0x8e>
+ 8000830:	d12d      	bne.n	800088e <HAL_TIM_Base_MspInit+0x7e>
   {
   /* USER CODE BEGIN TIM1_MspInit 0 */
 
@@ -1032,42 +1032,40 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
  8000884:	4619      	mov	r1, r3
  8000886:	4813      	ldr	r0, [pc, #76]	; (80008d4 <HAL_TIM_Base_MspInit+0xc4>)
  8000888:	f000 fa1c 	bl	8000cc4 <HAL_GPIO_Init>
-
-    /* TIM1 interrupt Init */
-    HAL_NVIC_SetPriority(TIM1_CC_IRQn, 0, 0);
- 800088c:	2200      	movs	r2, #0
- 800088e:	2100      	movs	r1, #0
- 8000890:	201b      	movs	r0, #27
- 8000892:	f000 f9e0 	bl	8000c56 <HAL_NVIC_SetPriority>
-    HAL_NVIC_EnableIRQ(TIM1_CC_IRQn);
- 8000896:	201b      	movs	r0, #27
- 8000898:	f000 f9f9 	bl	8000c8e <HAL_NVIC_EnableIRQ>
   /* USER CODE BEGIN TIM3_MspInit 1 */
 
   /* USER CODE END TIM3_MspInit 1 */
   }
 
 }
- 800089c:	e012      	b.n	80008c4 <HAL_TIM_Base_MspInit+0xb4>
+ 800088c:	e01a      	b.n	80008c4 <HAL_TIM_Base_MspInit+0xb4>
   else if(htim_base->Instance==TIM3)
- 800089e:	687b      	ldr	r3, [r7, #4]
- 80008a0:	681b      	ldr	r3, [r3, #0]
- 80008a2:	4a0d      	ldr	r2, [pc, #52]	; (80008d8 <HAL_TIM_Base_MspInit+0xc8>)
- 80008a4:	4293      	cmp	r3, r2
- 80008a6:	d10d      	bne.n	80008c4 <HAL_TIM_Base_MspInit+0xb4>
+ 800088e:	687b      	ldr	r3, [r7, #4]
+ 8000890:	681b      	ldr	r3, [r3, #0]
+ 8000892:	4a11      	ldr	r2, [pc, #68]	; (80008d8 <HAL_TIM_Base_MspInit+0xc8>)
+ 8000894:	4293      	cmp	r3, r2
+ 8000896:	d115      	bne.n	80008c4 <HAL_TIM_Base_MspInit+0xb4>
     __HAL_RCC_TIM3_CLK_ENABLE();
- 80008a8:	2300      	movs	r3, #0
- 80008aa:	60bb      	str	r3, [r7, #8]
- 80008ac:	4b08      	ldr	r3, [pc, #32]	; (80008d0 <HAL_TIM_Base_MspInit+0xc0>)
- 80008ae:	6c1b      	ldr	r3, [r3, #64]	; 0x40
- 80008b0:	4a07      	ldr	r2, [pc, #28]	; (80008d0 <HAL_TIM_Base_MspInit+0xc0>)
- 80008b2:	f043 0302 	orr.w	r3, r3, #2
- 80008b6:	6413      	str	r3, [r2, #64]	; 0x40
- 80008b8:	4b05      	ldr	r3, [pc, #20]	; (80008d0 <HAL_TIM_Base_MspInit+0xc0>)
- 80008ba:	6c1b      	ldr	r3, [r3, #64]	; 0x40
- 80008bc:	f003 0302 	and.w	r3, r3, #2
- 80008c0:	60bb      	str	r3, [r7, #8]
- 80008c2:	68bb      	ldr	r3, [r7, #8]
+ 8000898:	2300      	movs	r3, #0
+ 800089a:	60bb      	str	r3, [r7, #8]
+ 800089c:	4b0c      	ldr	r3, [pc, #48]	; (80008d0 <HAL_TIM_Base_MspInit+0xc0>)
+ 800089e:	6c1b      	ldr	r3, [r3, #64]	; 0x40
+ 80008a0:	4a0b      	ldr	r2, [pc, #44]	; (80008d0 <HAL_TIM_Base_MspInit+0xc0>)
+ 80008a2:	f043 0302 	orr.w	r3, r3, #2
+ 80008a6:	6413      	str	r3, [r2, #64]	; 0x40
+ 80008a8:	4b09      	ldr	r3, [pc, #36]	; (80008d0 <HAL_TIM_Base_MspInit+0xc0>)
+ 80008aa:	6c1b      	ldr	r3, [r3, #64]	; 0x40
+ 80008ac:	f003 0302 	and.w	r3, r3, #2
+ 80008b0:	60bb      	str	r3, [r7, #8]
+ 80008b2:	68bb      	ldr	r3, [r7, #8]
+    HAL_NVIC_SetPriority(TIM3_IRQn, 0, 0);
+ 80008b4:	2200      	movs	r2, #0
+ 80008b6:	2100      	movs	r1, #0
+ 80008b8:	201d      	movs	r0, #29
+ 80008ba:	f000 f9cc 	bl	8000c56 <HAL_NVIC_SetPriority>
+    HAL_NVIC_EnableIRQ(TIM3_IRQn);
+ 80008be:	201d      	movs	r0, #29
+ 80008c0:	f000 f9e5 	bl	8000c8e <HAL_NVIC_EnableIRQ>
 }
  80008c4:	bf00      	nop
  80008c6:	3728      	adds	r7, #40	; 0x28
@@ -1235,29 +1233,29 @@ void SysTick_Handler(void)
  800092c:	bf00      	nop
  800092e:	bd80      	pop	{r7, pc}
 
-08000930 <TIM1_CC_IRQHandler>:
+08000930 <TIM3_IRQHandler>:
 
 /**
-  * @brief This function handles TIM1 capture compare interrupt.
+  * @brief This function handles TIM3 global interrupt.
   */
-void TIM1_CC_IRQHandler(void)
+void TIM3_IRQHandler(void)
 {
  8000930:	b580      	push	{r7, lr}
  8000932:	af00      	add	r7, sp, #0
-  /* USER CODE BEGIN TIM1_CC_IRQn 0 */
+  /* USER CODE BEGIN TIM3_IRQn 0 */
 
-  /* USER CODE END TIM1_CC_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim1);
- 8000934:	4802      	ldr	r0, [pc, #8]	; (8000940 <TIM1_CC_IRQHandler+0x10>)
+  /* USER CODE END TIM3_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim3);
+ 8000934:	4802      	ldr	r0, [pc, #8]	; (8000940 <TIM3_IRQHandler+0x10>)
  8000936:	f001 f843 	bl	80019c0 <HAL_TIM_IRQHandler>
-  /* USER CODE BEGIN TIM1_CC_IRQn 1 */
+  /* USER CODE BEGIN TIM3_IRQn 1 */
 
-  /* USER CODE END TIM1_CC_IRQn 1 */
+  /* USER CODE END TIM3_IRQn 1 */
 }
  800093a:	bf00      	nop
  800093c:	bd80      	pop	{r7, pc}
  800093e:	bf00      	nop
- 8000940:	20000070 	.word	0x20000070
+ 8000940:	20000028 	.word	0x20000028
 
 08000944 <SystemInit>:
   *         configuration.
