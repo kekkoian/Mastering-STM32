@@ -1,4 +1,4 @@
-11:22:06 **** Incremental Build of configuration Debug for project TIM_MasterSlave ****
+15:52:25 **** Incremental Build of configuration Debug for project TIM_MasterSlave ****
 make -j8 all 
 arm-none-eabi-size   TIM_MasterSlave.elf 
    text	   data	    bss	    dec	    hex	filename

@@ -618,8 +618,8 @@ static void MX_TIM1_Init(void)
   sSlaveConfig.TriggerPolarity = TIM_TRIGGERPOLARITY_RISING;
  800063c:	2300      	movs	r3, #0
  800063e:	617b      	str	r3, [r7, #20]
-  sSlaveConfig.TriggerFilter = 15;
- 8000640:	230f      	movs	r3, #15
+  sSlaveConfig.TriggerFilter = 0;
+ 8000640:	2300      	movs	r3, #0
  8000642:	61fb      	str	r3, [r7, #28]
   if (HAL_TIM_SlaveConfigSynchro(&htim1, &sSlaveConfig) != HAL_OK)
  8000644:	f107 030c 	add.w	r3, r7, #12
@@ -730,8 +730,8 @@ static void MX_TIM3_Init(void)
     Error_Handler();
  80006d6:	f000 f86d 	bl	80007b4 <Error_Handler>
   }
-  sSlaveConfig.SlaveMode = TIM_SLAVEMODE_TRIGGER;
- 80006da:	2306      	movs	r3, #6
+  sSlaveConfig.SlaveMode = TIM_SLAVEMODE_EXTERNAL1;
+ 80006da:	2307      	movs	r3, #7
  80006dc:	60fb      	str	r3, [r7, #12]
   sSlaveConfig.InputTrigger = TIM_TS_ITR0;
  80006de:	2300      	movs	r3, #0
