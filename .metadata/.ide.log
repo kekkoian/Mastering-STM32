@@ -23954,3 +23954,445 @@
 2021-04-01 17:33:28,473 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
 2021-04-01 17:33:29,422 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
 2021-04-01 17:33:29,422 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:44:22,042 [INFO] Activator:170 - 
+
+
+2021-04-01 17:44:22,042 [INFO] Activator:171 - !SESSION log4j initialized
+2021-04-01 17:44:51,500 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-04-01 17:44:51,672 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602
+2021-04-01 17:44:51,689 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/
+2021-04-01 17:44:51,689 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/boardmanager/
+2021-04-01 17:44:51,689 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:51,689 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:51,700 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:51,706 [INFO] DbMcusAds:85 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:51,706 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:51,706 [INFO] DbMcusJson:65 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:51,718 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:51,719 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:51,733 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-04-01 17:44:51,734 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:51,892 [INFO] RulesReader:52 - Compatibility file has been processed (237 Rules)
+2021-04-01 17:44:52,137 [INFO] MicroXplorer:622 - Detected Java Version = 11.0.9.1
+2021-04-01 17:44:52,140 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/
+2021-04-01 17:44:52,141 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/boardmanager/
+2021-04-01 17:44:52,141 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:52,141 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:52,142 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] DbMcusAds:85 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] DbMcusJson:65 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-04-01 17:44:52,142 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,142 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,247 [INFO] MainPanel:204 - HeapMemory: 268435456
+2021-04-01 17:44:52,361 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/
+2021-04-01 17:44:52,361 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/boardmanager/
+2021-04-01 17:44:52,362 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:52,362 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:52,362 [INFO] DbExamples:333 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/plugins/mcufinder/images/
+2021-04-01 17:44:52,363 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,363 [INFO] DbMcusAds:85 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,363 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,364 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,364 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,365 [INFO] DbMcusJson:65 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,365 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,365 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,365 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,365 [INFO] DbBoardsJson:58 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,365 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,365 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,365 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-04-01 17:44:52,365 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder/ => C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder
+2021-04-01 17:44:52,365 [INFO] DbExamplesSqlite:690 - Set database path to: C:\Users\francesco.iannotta\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-01 17:44:52,398 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602
+2021-04-01 17:44:52,399 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-04-01 17:44:52,399 [INFO] PluginManage:292 - Check plugin analytics
+2021-04-01 17:44:57,161 [INFO] AnalyticsPlugin:233 - Accepted Software Licenses: 
+2021-04-01 17:44:57,171 [INFO] AnalyticsPlugin:235 - Accepted CMSIS Pack Licenses: 
+2021-04-01 17:44:57,172 [INFO] AnalyticsPlugin:237 - Accepted Firmware Licenses: 
+2021-04-01 17:44:57,172 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-04-01 17:44:57,172 [INFO] PluginManage:292 - Check plugin clock
+2021-04-01 17:44:57,193 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-04-01 17:44:57,193 [INFO] PluginManage:292 - Check plugin ddr
+2021-04-01 17:44:57,196 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-04-01 17:44:57,196 [INFO] PluginManage:292 - Check plugin filemanager
+2021-04-01 17:44:57,417 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-04-01 17:44:57,417 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-04-01 17:44:57,448 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-04-01 17:44:57,449 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-04-01 17:44:57,466 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-04-01 17:44:57,466 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-04-01 17:44:57,523 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-04-01 17:44:57,523 [INFO] PluginManage:292 - Check plugin power
+2021-04-01 17:44:57,551 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-04-01 17:44:57,552 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-04-01 17:44:57,594 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-04-01 17:44:57,595 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-04-01 17:44:57,797 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-04-01 17:44:57,797 [INFO] PluginManage:292 - Check plugin tools
+2021-04-01 17:44:57,797 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-04-01 17:44:57,800 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-04-01 17:44:57,800 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-04-01 17:44:57,803 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-04-01 17:44:57,803 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-04-01 17:44:58,163 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-04-01 17:44:58,163 [INFO] PluginManage:292 - Check plugin updater
+2021-04-01 17:44:58,182 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-04-01 17:44:58,183 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-04-01 17:44:58,461 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-04-01 17:44:58,564 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,564 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-04-01 17:44:58,564 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,564 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-04-01 17:44:58,564 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,564 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-04-01 17:44:58,574 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,574 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-04-01 17:44:58,574 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,574 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-04-01 17:44:58,580 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,580 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-04-01 17:44:58,581 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,581 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-04-01 17:44:58,590 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,590 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-04-01 17:44:58,590 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,590 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-04-01 17:44:58,590 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,590 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-04-01 17:44:58,603 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,603 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-04-01 17:44:58,603 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,603 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-04-01 17:44:58,603 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,603 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-04-01 17:44:58,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,616 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-04-01 17:44:58,621 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,621 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-04-01 17:44:58,624 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,624 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-04-01 17:44:58,625 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,625 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-04-01 17:44:58,625 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,625 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-04-01 17:44:58,625 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,625 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-04-01 17:44:58,625 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,625 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-04-01 17:44:58,625 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,625 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-04-01 17:44:58,642 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,642 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-04-01 17:44:58,642 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,642 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-04-01 17:44:58,651 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,651 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-04-01 17:44:58,652 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,652 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-04-01 17:44:58,652 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,652 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-04-01 17:44:58,652 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,668 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-04-01 17:44:58,669 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,669 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-04-01 17:44:58,669 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,669 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-04-01 17:44:58,669 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,669 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-04-01 17:44:58,669 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,669 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-04-01 17:44:58,669 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,669 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-04-01 17:44:58,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,685 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-04-01 17:44:58,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,685 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-04-01 17:44:58,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,685 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-04-01 17:44:58,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,685 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-04-01 17:44:58,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,685 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-04-01 17:44:58,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,685 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-04-01 17:44:58,700 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:44:58,700 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-04-01 17:44:59,078 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,217 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,223 [INFO] DbMcusAds:132 - JSON generation date=Mon Mar 01 11:27:39 CET 2021 (1614594459504)
+2021-04-01 17:44:59,223 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,273 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-04-01 17:44:59,642 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,645 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,645 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,646 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-04-01 17:44:59,647 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,735 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:44:59,735 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-04-01 17:45:00,623 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:00,627 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:00,808 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-04-01 17:45:03,810 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:45:03,810 [ERROR] AbstractThirdPartyUpdaterManager:153 - class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader 'bootstrap')
+2021-04-01 17:45:03,810 [INFO] ThirdParty:900 - Integrity check success = false
+2021-04-01 17:45:03,810 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-01 17:45:03,810 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-01 17:45:03,810 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-04-01 17:45:03,815 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-04-01 17:45:03,815 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-04-01 17:45:03,815 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-01 17:45:03,830 [INFO] Updater:1002 - Updater Version found : 6.2.0
+2021-04-01 17:45:03,877 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602
+2021-04-01 17:45:04,083 [INFO] MainUpdater:2661 - connection check result : 10
+2021-04-01 17:45:04,083 [INFO] MainUpdater:255 - Updater Check For Update Now.
+2021-04-01 17:45:04,083 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-04-01 17:45:04,168 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-04-01 17:45:04,201 [INFO] MainUpdater:2661 - connection check result : 10
+2021-04-01 17:45:04,201 [INFO] MainUpdater:2661 - connection check result : 10
+2021-04-01 17:45:04,405 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-04-01 17:45:04,406 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-04-01 17:45:04,406 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-04-01 17:45:04,406 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-04-01 17:45:04,407 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-04-01 17:45:04,412 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-04-01 17:45:04,414 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 165282784 Bytes (268435456)
+2021-04-01 17:45:04,416 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-04-01 17:45:04,416 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-04-01 17:45:04,416 [INFO] OpenFileManager:303 - Change cursor
+2021-04-01 17:45:04,431 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-04-01 17:45:04,432 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-04-01 17:45:04,629 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.8.2.0
+2021-04-01 17:45:04,888 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.6.0.0
+2021-04-01 17:45:04,888 [INFO] ThirdParty:900 - Integrity check success = true
+2021-04-01 17:45:04,888 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-01 17:45:04,888 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-01 17:45:07,099 [INFO] Context:587 - Trying to add GPIOservice into a context  which must be forbidden
+2021-04-01 17:45:07,917 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-01 17:45:07,917 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-01 17:45:07,917 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-01 17:45:07,933 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-04-01 17:45:07,933 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-04-01 17:45:07,933 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-04-01 17:45:07,933 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-04-01 17:45:07,933 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-04-01 17:45:07,938 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,939 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:07,940 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:45:08,083 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,083 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,083 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,083 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,083 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,083 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,091 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,091 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,091 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,091 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (TIM1_UP) currently not set
+2021-04-01 17:45:08,092 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2021-04-01 17:45:08,092 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (12500000)
+2021-04-01 17:45:08,450 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 189350536 Bytes (304087040)
+2021-04-01 17:45:08,453 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/families.xml
+2021-04-01 17:45:09,748 [INFO] DbMcusJson:94 - JSON generation date=Mon Feb 08 14:35:07 CET 2021 (1612791307)
+2021-04-01 17:45:10,998 [INFO] DbMcus:175 - Found 1906 MCUs (1866 are supported by CubeMX, 1866 are visible in CubeMX)
+2021-04-01 17:45:10,999 [INFO] ApiDb:251 - Load user favorites file C:\Users\francesco.iannotta/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2021-04-01 17:45:10,999 [INFO] ApiDb:255 - User favorites MCUs=[STM32F401RETx]
+2021-04-01 17:45:11,000 [INFO] DbMcus:187 - Set 1 / 1 favorites MCUs
+2021-04-01 17:45:11,003 [WARN] ThirdParty:762 - waiting for thirdparty lock release [change project]
+2021-04-01 17:45:11,003 [INFO] ThirdParty:764 - entering critical section [change project]
+2021-04-01 17:45:11,003 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-04-01 17:45:11,003 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-04-01 17:45:11,003 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-04-01 17:45:11,003 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-04-01 17:45:11,004 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-04-01 17:45:11,005 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-04-01 17:45:11,005 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-04-01 17:45:11,005 [INFO] ThirdParty:770 - exiting critical section [change project]
+2021-04-01 17:45:11,232 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:11,233 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:11,678 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-04-01 17:45:11,681 [INFO] PinOutPanel:1435 - setPackage(STM32F401RETx,LQFP64)
+2021-04-01 17:45:11,892 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:11,893 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:12,568 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:12,568 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:12,744 [INFO] UtilMem:74 - Before build in PCC Used Memory: 438820568 Bytes (567279616)
+2021-04-01 17:45:13,225 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:13,226 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:13,683 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:45:13,786 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:45:13,926 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:45:13,934 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:45:13,955 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:13,962 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:14,325 [INFO] UtilMem:74 - After build in PCC Used Memory: 332301824 Bytes (567279616)
+2021-04-01 17:45:14,390 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,391 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,392 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,392 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,392 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,393 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,393 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,394 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,394 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,395 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,395 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,395 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,397 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,398 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,399 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,400 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,401 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,402 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,402 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,403 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,404 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,405 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,407 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,409 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,410 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,411 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,412 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,413 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,415 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,417 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,419 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,420 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,421 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,423 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,426 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,428 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,430 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,432 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:45:14,534 [INFO] ApiDbMcu:458 - Load IP Config File for PDM2PCM
+2021-04-01 17:45:14,584 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-04-01 17:45:14,664 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:14,665 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:14,853 [INFO] OpenFileManager:323 - Restore cursor
+2021-04-01 17:45:15,222 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:15,222 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:15,836 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:15,837 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:34,193 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:45:34,200 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:45:35,740 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:35,747 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:36,436 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:36,436 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:37,205 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:37,206 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:38,128 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:38,128 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:39,077 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:39,077 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:39,768 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:39,768 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:40,439 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:40,439 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:41,176 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:41,176 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:41,862 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:41,862 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:43,001 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:43,001 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:43,848 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:43,853 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:44,503 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:44,503 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:45,287 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:45,287 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:45:46,077 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:45:46,077 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:48:13,396 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 627662104 Bytes (635437056)
+2021-04-01 17:48:14,803 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 619870624 Bytes (636485632)
+2021-04-01 17:48:16,734 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 425261328 Bytes (639631360)
+2021-04-01 17:48:17,304 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-01 17:48:17,305 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: DMA
+2021-04-01 17:48:17,305 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-04-01 17:48:17,305 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8
+2021-04-01 17:48:17,305 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-01 17:48:17,306 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-01 17:48:17,306 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-01 17:48:17,307 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-04-01 17:48:17,805 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\license.tmp_save
+2021-04-01 17:48:18,383 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\license.tmp
+2021-04-01 17:48:18,532 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\gpio.tmp_save
+2021-04-01 17:48:18,661 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\gpio.tmp
+2021-04-01 17:48:18,921 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-01 17:48:18,937 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\dma.tmp_save
+2021-04-01 17:48:19,017 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\dma.tmp
+2021-04-01 17:48:19,022 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\dma_GV.tmp_save
+2021-04-01 17:48:19,105 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\dma_GV.tmp
+2021-04-01 17:48:19,107 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-01 17:48:19,124 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Src\stm32f4xx_it.c_save
+2021-04-01 17:48:19,315 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Src\stm32f4xx_it.c
+2021-04-01 17:48:19,323 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Inc\stm32f4xx_it.h_save
+2021-04-01 17:48:19,449 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Inc\stm32f4xx_it.h
+2021-04-01 17:48:19,474 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Src\stm32f4xx_hal_msp.c_save
+2021-04-01 17:48:19,649 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Src\stm32f4xx_hal_msp.c
+2021-04-01 17:48:19,655 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\system.tmp_save
+2021-04-01 17:48:19,726 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\MXTmpFiles\system.tmp
+2021-04-01 17:48:19,739 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-04-01 17:48:19,866 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Inc\stm32f4xx_hal_conf.h
+2021-04-01 17:48:19,940 [WARN] IPConfigManager:2976 - IP not found : TIM
+2021-04-01 17:48:19,940 [WARN] CodeGenerator:3191 - IP not found : null
+2021-04-01 17:48:19,960 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Inc\main.h_save
+2021-04-01 17:48:20,073 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Inc\main.h
+2021-04-01 17:48:20,080 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Src\main.c_save
+2021-04-01 17:48:20,311 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\TIM_InputCaptureMode\Core\Src\main.c
+2021-04-01 17:48:21,437 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 99mS.
+2021-04-01 17:48:21,443 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-04-01 17:48:22,090 [INFO] ConfigFileManager:1242 - The Die is : DIE433
+2021-04-01 17:48:22,109 [INFO] ApiDbMcu:458 - Load IP Config File for FATFS
+2021-04-01 17:48:22,140 [INFO] ApiDbMcu:458 - Load IP Config File for FREERTOS
+2021-04-01 17:48:22,151 [INFO] ApiDbMcu:458 - Load IP Config File for LIBJPEG
+2021-04-01 17:48:22,199 [INFO] ApiDbMcu:458 - Load IP Config File for MBEDTLS
+2021-04-01 17:48:22,268 [INFO] ApiDbMcu:458 - Load IP Config File for USB_DEVICE
+2021-04-01 17:48:22,285 [INFO] ApiDbMcu:458 - Load IP Config File for USB_HOST
+2021-04-01 17:48:25,251 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 3808mS.
+2021-04-01 17:48:25,255 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 4mS.
+2021-04-01 17:48:25,256 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
