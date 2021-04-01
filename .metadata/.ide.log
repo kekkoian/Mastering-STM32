@@ -23779,3 +23779,178 @@
 2021-04-01 17:32:46,316 [INFO] MainUpdater:2661 - connection check result : 10
 2021-04-01 17:32:46,317 [INFO] MainUpdater:255 - Updater Check For Update Now.
 2021-04-01 17:32:46,317 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-04-01 17:32:46,395 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-04-01 17:32:46,431 [INFO] MainUpdater:2661 - connection check result : 10
+2021-04-01 17:32:46,431 [INFO] MainUpdater:2661 - connection check result : 10
+2021-04-01 17:32:46,603 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-04-01 17:32:46,604 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-04-01 17:32:46,604 [WARN] ThirdParty:796 - waiting for thirdparty lock release [close project]
+2021-04-01 17:32:46,604 [INFO] ThirdParty:798 - entering critical section [close project]
+2021-04-01 17:32:46,604 [INFO] ThirdParty:809 - exiting critical section [close project]
+2021-04-01 17:32:46,608 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-04-01 17:32:46,610 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 211777560 Bytes (268435456)
+2021-04-01 17:32:46,613 [INFO] MicroXplorer:442 - Change Database Path : 
+2021-04-01 17:32:46,613 [INFO] MicroXplorer:472 - Change Database Version : DB.6.0.20
+2021-04-01 17:32:46,614 [INFO] OpenFileManager:303 - Change cursor
+2021-04-01 17:32:46,631 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-04-01 17:32:46,632 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-04-01 17:32:46,876 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.8.2.0
+2021-04-01 17:32:47,160 [WARN] PackLoader:226 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.6.0.0
+2021-04-01 17:32:47,161 [INFO] ThirdParty:900 - Integrity check success = true
+2021-04-01 17:32:47,162 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-01 17:32:47,162 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-01 17:32:49,542 [INFO] Context:587 - Trying to add GPIOservice into a context  which must be forbidden
+2021-04-01 17:32:50,493 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-01 17:32:50,493 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-01 17:32:50,493 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-01 17:32:50,510 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-04-01 17:32:50,510 [INFO] RtosManager:470 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-04-01 17:32:50,510 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-04-01 17:32:50,514 [INFO] RtosManager:470 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-04-01 17:32:50,514 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,516 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,518 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,519 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-01 17:32:50,643 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,644 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,644 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,645 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,645 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,646 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,647 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,647 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,647 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,647 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (TIM1_UP) currently not set
+2021-04-01 17:32:50,649 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2021-04-01 17:32:50,650 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (12500000)
+2021-04-01 17:32:51,234 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 266862720 Bytes (349175808)
+2021-04-01 17:32:51,240 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\/mcu/families.xml
+2021-04-01 17:32:52,449 [INFO] DbMcusJson:94 - JSON generation date=Mon Feb 08 14:35:07 CET 2021 (1612791307)
+2021-04-01 17:32:53,668 [INFO] DbMcus:175 - Found 1906 MCUs (1866 are supported by CubeMX, 1866 are visible in CubeMX)
+2021-04-01 17:32:53,669 [INFO] ApiDb:251 - Load user favorites file C:\Users\francesco.iannotta/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2021-04-01 17:32:53,670 [INFO] ApiDb:255 - User favorites MCUs=[STM32F401RETx]
+2021-04-01 17:32:53,670 [INFO] DbMcus:187 - Set 1 / 1 favorites MCUs
+2021-04-01 17:32:53,673 [WARN] ThirdParty:762 - waiting for thirdparty lock release [change project]
+2021-04-01 17:32:53,673 [INFO] ThirdParty:764 - entering critical section [change project]
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:952 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-04-01 17:32:53,673 [INFO] ThirdParty:770 - exiting critical section [change project]
+2021-04-01 17:32:54,390 [INFO] PinOutPanel:1435 - setPackage(No Configuration,No Configuration)
+2021-04-01 17:32:54,392 [INFO] PinOutPanel:1435 - setPackage(STM32F401RETx,LQFP64)
+2021-04-01 17:32:54,658 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:32:54,663 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:32:55,155 [INFO] UtilMem:74 - Before build in PCC Used Memory: 362386856 Bytes (535822336)
+2021-04-01 17:32:55,809 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:32:55,916 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:32:56,049 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:32:56,060 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/francesco.iannotta/.stm32cubemx/plugins/power
+2021-04-01 17:32:56,480 [INFO] UtilMem:74 - After build in PCC Used Memory: 298175688 Bytes (535822336)
+2021-04-01 17:32:56,593 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,601 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,602 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,603 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,603 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,604 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,605 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,605 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,605 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,605 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,605 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,612 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,619 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,621 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,622 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,623 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,624 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,626 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,628 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,629 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,630 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,632 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,633 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,635 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,637 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,639 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,641 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,643 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,643 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,643 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,643 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,654 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,655 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-01 17:32:56,802 [INFO] ApiDbMcu:458 - Load IP Config File for PDM2PCM
+2021-04-01 17:32:56,840 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-04-01 17:32:57,138 [INFO] OpenFileManager:323 - Restore cursor
+2021-04-01 17:33:05,205 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:05,205 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:05,759 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:05,759 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:07,334 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:07,335 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:07,779 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:07,779 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:08,204 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:08,204 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:08,691 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:08,691 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:09,111 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:09,112 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:09,551 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:09,552 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:20,397 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:20,397 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:20,770 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:20,770 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:21,547 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://sw-center.st.com:80: The target server failed to respond
+2021-04-01 17:33:21,547 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-04-01 17:33:26,256 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:33:26,256 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:33:27,422 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:33:27,422 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:33:28,473 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:33:28,473 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2021-04-01 17:33:29,422 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
+2021-04-01 17:33:29,422 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
