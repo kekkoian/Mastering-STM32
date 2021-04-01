@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TIM_DMApollingMode&apos; to &apos;TIM_DMA&apos;" description="Rename resource &apos;TIM_DMApollingMode&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/TIM_DMApollingMode" name="TIM_DMA" stamp="1617282997381" updateReferences="true"/>
+</session>
