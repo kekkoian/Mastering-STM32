@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,7 +48,10 @@ DMA_HandleTypeDef hdma_tim3_ch1_trig;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-
+float frequency = 0;
+uint8_t  odrVals[] = { 0x0, 0xFF };
+uint16_t captures[2];
+volatile uint8_t  captureDone = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -74,7 +77,8 @@ static void MX_USART2_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	uint16_t diffCapture = 0;
+	  char msg[30];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -100,6 +104,11 @@ int main(void)
   MX_TIM3_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  HAL_TIM_Base_Start(&htim1);
+  HAL_DMA_Start(&hdma_tim1_up, (uint32_t) odrVals, (uint32_t) &GPIOA->ODR, 2);
+         __HAL_TIM_ENABLE_DMA(&htim1, TIM_DMA_UPDATE);
+
+    HAL_TIM_IC_Start_DMA(&htim3, TIM_CHANNEL_1, (uint32_t*) captures, 2);
 
   /* USER CODE END 2 */
 
@@ -110,6 +119,21 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  if (captureDone != 0) {
+	        if (captures[1] >= captures[0])
+	        	diffCapture = captures[1] - captures[0];
+	        else
+
+	        	diffCapture = (htim3.Instance->ARR - captures[0]) + captures[1];
+
+	        frequency = HAL_RCC_GetHCLKFreq() / (htim3.Instance->PSC + 1);
+
+	        frequency = (float) frequency / diffCapture;
+
+	        sprintf(msg, "Input frequency: %.3f\r\n", frequency);
+	        HAL_UART_Transmit(&huart2, (uint8_t*) msg, strlen(msg), HAL_MAX_DELAY);
+	        while (1);
+	      }
   }
   /* USER CODE END 3 */
 }
@@ -355,7 +379,11 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim) {
+  if (htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1) {
+    captureDone = 1;
+  }
+}
 /* USER CODE END 4 */
 
 /**
