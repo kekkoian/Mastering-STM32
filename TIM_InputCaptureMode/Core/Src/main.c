@@ -108,7 +108,7 @@ int main(void)
   HAL_DMA_Start(&hdma_tim1_up, (uint32_t) odrVals, (uint32_t) &GPIOA->ODR, 2);
          __HAL_TIM_ENABLE_DMA(&htim1, TIM_DMA_UPDATE);
 
-    HAL_TIM_IC_Start_DMA(&htim3, TIM_CHANNEL_1, (uint32_t*) captures, 2);
+    HAL_TIM_IC_Start_DMA(&htim3, TIM_CHANNEL_1, (uint32_t*)captures, 2);/*(uint32_t*)*/
 
   /* USER CODE END 2 */
 
@@ -120,13 +120,12 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  if (captureDone != 0) {
-	        if (captures[1] >= captures[0])
-	        	diffCapture = captures[1] - captures[0];
-	        else
-
+	        if (captures[1] >= captures[0]) {
+	        	diffCapture = (captures[1] - captures[0]);
+	        }else{
 	        	diffCapture = (htim3.Instance->ARR - captures[0]) + captures[1];
-
-	        frequency = HAL_RCC_GetHCLKFreq() / (htim3.Instance->PSC + 1);
+	        }
+	        frequency = LSE_VALUE/ (htim3.Instance->PSC + 1);
 
 	        frequency = (float) frequency / diffCapture;
 
