@@ -1,0 +1,10 @@
+09:28:26 **** Incremental Build of configuration Debug for project TIM_PWM_wave ****
+make -j8 all 
+arm-none-eabi-size   TIM_PWM_wave.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18044	     20	   1740	  19804	   4d5c	TIM_PWM_wave.elf
+Finished building: default.size.stdout
+ 
+
+09:28:27 Build Finished. 0 errors, 0 warnings. (took 271ms)
+

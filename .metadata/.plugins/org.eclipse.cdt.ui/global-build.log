@@ -1,7 +1,7 @@
-11:02:34 **** Incremental Build of configuration Debug for project TIM_PWM_LEDdimming ****
+09:28:26 **** Incremental Build of configuration Debug for project TIM_PWM_wave ****
 make -j8 all 
-arm-none-eabi-size   TIM_PWM_LEDdimming.elf 
+arm-none-eabi-size   TIM_PWM_wave.elf 
    text	   data	    bss	    dec	    hex	filename
-   9324	     20	   1644	  10988	   2aec	TIM_PWM_LEDdimming.elf
+  18044	     20	   1740	  19804	   4d5c	TIM_PWM_wave.elf
 Finished building: default.size.stdout
  
