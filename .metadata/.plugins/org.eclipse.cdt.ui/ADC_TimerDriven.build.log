@@ -1,0 +1,10 @@
+11:56:24 **** Incremental Build of configuration Debug for project ADC_TimerDriven ****
+make -j8 all 
+arm-none-eabi-size   ADC_TimerDriven.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29476	    484	   1908	  31868	   7c7c	ADC_TimerDriven.elf
+Finished building: default.size.stdout
+ 
+
+11:56:25 Build Finished. 0 errors, 0 warnings. (took 294ms)
+

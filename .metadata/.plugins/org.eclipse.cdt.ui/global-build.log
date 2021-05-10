@@ -1,7 +1,7 @@
-09:28:26 **** Incremental Build of configuration Debug for project TIM_PWM_wave ****
+11:56:24 **** Incremental Build of configuration Debug for project ADC_TimerDriven ****
 make -j8 all 
-arm-none-eabi-size   TIM_PWM_wave.elf 
+arm-none-eabi-size   ADC_TimerDriven.elf 
    text	   data	    bss	    dec	    hex	filename
-  18044	     20	   1740	  19804	   4d5c	TIM_PWM_wave.elf
+  29476	    484	   1908	  31868	   7c7c	ADC_TimerDriven.elf
 Finished building: default.size.stdout
  
