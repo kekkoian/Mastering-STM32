@@ -1,0 +1,53 @@
+14:57:10 **** Incremental Build of configuration Debug for project I2C_MasterMode ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:57: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   98 |   Write_To_24LCxx(&hi2c1, 0xA0, 0x1AAA, (uint8_t*)wmsg, strlen(wmsg)+1);
+      |                                                         ^~~~~~
+../Core/Src/main.c:98:57: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "main.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c:100:6: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  100 |   if(strcmp(wmsg, rmsg) == 0) {
+      |      ^~~~~~
+../Core/Src/main.c: In function 'Write_To_24LCxx':
+../Core/Src/main.c:243:20: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  243 |   data = (uint8_t*)malloc(sizeof(uint8_t)*(len+2));
+      |                    ^~~~~~
+../Core/Src/main.c:243:20: warning: incompatible implicit declaration of built-in function 'malloc'
+../Core/Src/main.c:22:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   21 | #include "main.h"
+  +++ |+#include <stdlib.h>
+   22 | 
+../Core/Src/main.c:250:3: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+  250 |   memcpy(data+2, pData, len);
+      |   ^~~~~~
+../Core/Src/main.c:250:3: warning: incompatible implicit declaration of built-in function 'memcpy'
+../Core/Src/main.c:250:3: note: include '<string.h>' or provide a declaration of 'memcpy'
+../Core/Src/main.c:257:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  257 |   free(data);
+      |   ^~~~
+../Core/Src/main.c:257:3: warning: incompatible implicit declaration of built-in function 'free'
+../Core/Src/main.c:257:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+arm-none-eabi-gcc -o "I2C_MasterMode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_MasterMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: I2C_MasterMode.elf
+ 
+arm-none-eabi-size   I2C_MasterMode.elf 
+arm-none-eabi-objdump -h -S  I2C_MasterMode.elf  > "I2C_MasterMode.list"
+arm-none-eabi-objcopy  -O binary  I2C_MasterMode.elf  "I2C_MasterMode.bin"
+   text	   data	    bss	    dec	    hex	filename
+  24956	    484	   1684	  27124	   69f4	I2C_MasterMode.elf
+Finished building: default.size.stdout
+ 
+Finished building: I2C_MasterMode.bin
+ 
+Finished building: I2C_MasterMode.list
+ 
+
+14:57:11 Build Finished. 0 errors, 9 warnings. (took 1s.17ms)
+

@@ -34309,3 +34309,148 @@
 2021-05-17 12:55:12,489 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
 2021-05-17 12:55:13,022 [INFO] ApiDb:276 - Save user favorites file C:\Users\francesco.iannotta/.stm32cubeide/favorites.mcus.txt: 1 item(s)
 2021-05-17 12:55:13,022 [INFO] ApiDb:280 - User favorites MCUs=[STM32F401RETx]
+2021-05-17 13:44:30,369 [INFO] Gpio:248 - dependency for GPIO []
+2021-05-17 13:45:26,619 [INFO] Gpio:248 - dependency for GPIO []
+2021-05-17 13:45:32,490 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,490 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,513 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,513 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,513 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,513 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,613 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,613 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,613 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,613 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,613 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:45:32,613 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,692 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,692 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,692 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,692 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,739 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,739 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,739 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,739 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:35,754 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,100 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,100 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,100 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,100 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:38,115 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,247 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,247 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,247 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,247 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,247 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,247 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,262 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,262 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,262 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,262 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,262 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 13:46:53,262 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:31:37,860 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,861x280,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-05-17 14:43:48,927 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:43:48,929 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:43:48,929 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:43:48,929 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:25,078 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:25,078 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:25,084 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:25,084 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:55,548 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:55,548 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:55,548 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:44:55,548 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,657 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,657 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,726 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,726 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,726 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,726 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,742 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,742 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,805 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,805 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,805 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,805 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,851 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,854 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,855 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,855 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,882 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:01,882 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:05,306 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:05,307 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:05,308 [WARN] IP:2088 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:05,308 [WARN] IP:2088 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,762 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,762 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,815 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,815 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,815 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,815 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,815 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,815 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,847 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,847 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,847 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,847 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,893 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,893 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,893 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,893 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,910 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:10,910 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:22,810 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,770x280,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-05-17 14:45:54,909 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 515494784 Bytes (958398464)
+2021-05-17 14:45:57,540 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 529262480 Bytes (958398464)
+2021-05-17 14:45:59,352 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 551146368 Bytes (958398464)
+2021-05-17 14:45:59,689 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-05-17 14:45:59,689 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-05-17 14:45:59,689 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-05-17 14:45:59,689 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-05-17 14:45:59,689 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: I2C
+2021-05-17 14:45:59,689 [INFO] CodeGenerator:641 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.2.0.202102191602\\db\
+2021-05-17 14:45:59,689 [WARN] IP:2088 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:59,689 [WARN] IP:2088 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-05-17 14:45:59,936 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\MXTmpFiles\license.tmp_save
+2021-05-17 14:46:00,042 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\MXTmpFiles\license.tmp
+2021-05-17 14:46:00,074 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\MXTmpFiles\gpio.tmp_save
+2021-05-17 14:46:00,120 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\MXTmpFiles\gpio.tmp
+2021-05-17 14:46:00,167 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-17 14:46:00,174 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Src\stm32f4xx_it.c_save
+2021-05-17 14:46:00,290 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Src\stm32f4xx_it.c
+2021-05-17 14:46:00,290 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Inc\stm32f4xx_it.h_save
+2021-05-17 14:46:00,353 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Inc\stm32f4xx_it.h
+2021-05-17 14:46:00,353 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Src\stm32f4xx_hal_msp.c_save
+2021-05-17 14:46:00,460 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Src\stm32f4xx_hal_msp.c
+2021-05-17 14:46:00,460 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\MXTmpFiles\system.tmp_save
+2021-05-17 14:46:00,505 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\MXTmpFiles\system.tmp
+2021-05-17 14:46:00,505 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-05-17 14:46:00,568 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Inc\stm32f4xx_hal_conf.h
+2021-05-17 14:46:00,590 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Inc\main.h_save
+2021-05-17 14:46:00,637 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Inc\main.h
+2021-05-17 14:46:00,653 [INFO] CodeEngine:229 - oldGeneratedFile, C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Src\main.c_save
+2021-05-17 14:46:00,722 [INFO] CodeEngine:247 - Generated code: C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\Core\Src\main.c
+2021-05-17 14:46:01,450 [INFO] ProjectBuilder:2460 - Time for Copy HAL[1] : 70mS.
+2021-05-17 14:46:01,450 [INFO] ProjectBuilder:3418 - Project Generator version: 3.13.0-B3
+2021-05-17 14:46:01,801 [INFO] ConfigFileManager:1242 - The Die is : DIE433
+2021-05-17 14:46:03,650 [INFO] ProjectBuilder:3584 - Time for Generating toolchain IDE Files: 2200mS.
+2021-05-17 14:46:03,650 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-05-17 14:46:03,650 [INFO] ProjectBuilder:2339 - Time for Copy CMSIS : 0mS.
+2021-05-17 14:56:25,255 [INFO] Gpio:248 - dependency for GPIO [I2C1]

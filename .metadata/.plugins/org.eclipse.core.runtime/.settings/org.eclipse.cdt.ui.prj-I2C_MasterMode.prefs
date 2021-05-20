@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=C\:\\STM32Toolchain\\projects\\STM32CubeIDE\\.metadata\\.plugins\\org.eclipse.cdt.ui\\I2C_MasterMode.build.log
+eclipse.preferences.version=1
