@@ -61,8 +61,8 @@ all: main-build
 main-build: UART_DMAinterruptMode.elf secondary-outputs
 
 # Tool invocations
-UART_DMAinterruptMode.elf: $(OBJS) $(USER_OBJS) C:\Users\Windows\STM32CubeIDE\workspace_1.6.0\STM32CubeIDE\UART_DMAinterruptMode\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "UART_DMAinterruptMode.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Windows\STM32CubeIDE\workspace_1.6.0\STM32CubeIDE\UART_DMAinterruptMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_DMAinterruptMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+UART_DMAinterruptMode.elf: $(OBJS) $(USER_OBJS) C:\Users\Windows\STM32CubeIDE\workspace_1.6.0\Mastering-STM32\UART_DMAinterruptMode\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "UART_DMAinterruptMode.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Windows\STM32CubeIDE\workspace_1.6.0\Mastering-STM32\UART_DMAinterruptMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_DMAinterruptMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

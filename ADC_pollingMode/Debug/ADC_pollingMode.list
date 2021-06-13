@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   000086db  00000000  00000000  000425dd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00091917  00000000  00000000  0004acb8  2**0
+ 18 .debug_str    0009192d  00000000  00000000  0004acb8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000dc5cf  2**0
+ 19 .comment      00000053  00000000  00000000  000dc5e5  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000030c0  00000000  00000000  000dc624  2**2
+ 20 .debug_frame  000030c0  00000000  00000000  000dc638  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1502,30 +1502,31 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
  80010fc:	2300      	movs	r3, #0
  80010fe:	617b      	str	r3, [r7, #20]
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
- 8001100:	f44f 53a0 	mov.w	r3, #5120	; 0x1400
- 8001104:	61bb      	str	r3, [r7, #24]
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+ 8001100:	2300      	movs	r3, #0
+ 8001102:	61bb      	str	r3, [r7, #24]
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
- 8001106:	2300      	movs	r3, #0
- 8001108:	61fb      	str	r3, [r7, #28]
+ 8001104:	2300      	movs	r3, #0
+ 8001106:	61fb      	str	r3, [r7, #28]
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
- 800110a:	f107 030c 	add.w	r3, r7, #12
- 800110e:	2100      	movs	r1, #0
- 8001110:	4618      	mov	r0, r3
- 8001112:	f001 fb69 	bl	80027e8 <HAL_RCC_ClockConfig>
- 8001116:	4603      	mov	r3, r0
- 8001118:	2b00      	cmp	r3, #0
- 800111a:	d001      	beq.n	8001120 <SystemClock_Config+0xc4>
+ 8001108:	f107 030c 	add.w	r3, r7, #12
+ 800110c:	2100      	movs	r1, #0
+ 800110e:	4618      	mov	r0, r3
+ 8001110:	f001 fb6a 	bl	80027e8 <HAL_RCC_ClockConfig>
+ 8001114:	4603      	mov	r3, r0
+ 8001116:	2b00      	cmp	r3, #0
+ 8001118:	d001      	beq.n	800111e <SystemClock_Config+0xc2>
   {
     Error_Handler();
- 800111c:	f000 f89e 	bl	800125c <Error_Handler>
+ 800111a:	f000 f89f 	bl	800125c <Error_Handler>
   }
 }
- 8001120:	bf00      	nop
- 8001122:	3750      	adds	r7, #80	; 0x50
- 8001124:	46bd      	mov	sp, r7
- 8001126:	bd80      	pop	{r7, pc}
+ 800111e:	bf00      	nop
+ 8001120:	3750      	adds	r7, #80	; 0x50
+ 8001122:	46bd      	mov	sp, r7
+ 8001124:	bd80      	pop	{r7, pc}
+ 8001126:	bf00      	nop
  8001128:	40023800 	.word	0x40023800
  800112c:	40007000 	.word	0x40007000
 

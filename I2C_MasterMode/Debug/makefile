@@ -61,8 +61,8 @@ all: main-build
 main-build: I2C_MasterMode.elf secondary-outputs
 
 # Tool invocations
-I2C_MasterMode.elf: $(OBJS) $(USER_OBJS) C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "I2C_MasterMode.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\STM32Toolchain\projects\STM32CubeIDE\I2C_MasterMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_MasterMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+I2C_MasterMode.elf: $(OBJS) $(USER_OBJS) C:\Users\Windows\STM32CubeIDE\workspace_1.6.0\Mastering-STM32\I2C_MasterMode\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "I2C_MasterMode.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Windows\STM32CubeIDE\workspace_1.6.0\Mastering-STM32\I2C_MasterMode\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_MasterMode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
